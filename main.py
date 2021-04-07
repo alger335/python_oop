@@ -74,20 +74,18 @@ some_student2.avg()
 some_lecturer1.avg()
 some_lecturer2.avg()
 
-# print(mentor1)
-# print(mentor2)
-# print(some_reviewer)
+print(mentor1)
+print(mentor2)
+print(some_reviewer)
  
-# print(some_student1)
-# print(some_student1.grades)
-# print(some_student2)
-# print(some_student2.grades)
+print(some_student1)
+print(some_student2)
 
-# print(some_lecturer1)
-# print(some_lecturer2)
+print(some_lecturer1)
+print(some_lecturer2)
 
-# print(some_student1 < some_student2)
-# print(some_lecturer1 < some_lecturer2)
+print(some_student1 < some_student2)
+print(some_lecturer1 < some_lecturer2)
 
 students_list = [some_student1, some_student2]
 course = 'Hen Llinge'

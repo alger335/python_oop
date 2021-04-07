@@ -63,8 +63,6 @@ class Lecturer(Mentor):
 class Reviewer(Mentor):
     def __init__(self, name, surname):
         super().__init__(name, surname)
-        # self.name = name
-        # self.surname = surname
         self.courses_attached = []
         self.grades = {}
 
@@ -78,4 +76,3 @@ class Reviewer(Mentor):
             return 'Ошибка'
     def __str__(self):
         return f'Имя: {self.name} \nФамилия: {self.surname}'
-
